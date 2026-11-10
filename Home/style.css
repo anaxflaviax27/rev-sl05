@@ -37,19 +37,62 @@ nav {
 }
 
 .s1 {
-    background-image: url('../assets/images/images.jpg');
+    background-image: url('../assets/images/20079.jpg');
     height: 100vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    box-shadow: 0px 2px 12px #000000c7
+    box-shadow: 0px 2px 12px #000000c7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrap-divs{ 
+    padding: 20px;
+
+}
+
+.tittle-div{
+    padding: 50px;
+    font-size: 42px; 
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 3px 10px black;
+}
+
+.wrap-btns{ 
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.wrap-btns button{
+    padding: 8px 20px 8px 20px;
+    border-radius: 999px;
+    border: none;
+    border: 2px solid white;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background: none;
+    box-shadow: 2px 3px 15px black;
+    opacity: 0.5;
+    transition: all 400ms linear;
+}
+
+.wrap-btns button:hover{
+    cursor: pointer;
+    opacity: 8;
+    border: 2px solid #13e0ff;
+    color: #13e0ff;
+     box-shadow: 2px 3px 15px white;
+     transform: scale(1.1);
 }
 
 .s2 {
     height: 100vh;
 }
-
 .wrap-open,
 .wrap-open img {
     display: none;
